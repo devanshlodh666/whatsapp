@@ -1,0 +1,31 @@
+{
+  "name": "chating-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "devansh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/passport-google-oauth20": "^2.0.11",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^111.0.0",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.2",
+    "passport": "^0.6.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "validator": "^13.9.0"
+  }
+}
